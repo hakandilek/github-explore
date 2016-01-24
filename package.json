@@ -4,7 +4,12 @@
   "description": "github explorer",
   "main": "index.js",
   "dependencies": {
-    "github": "^0.2.4"
+    "angular": "^1.4.9",
+    "angular-animate": "^1.4.9",
+    "angular-aria": "^1.4.9",
+    "angular-material": "^1.0.2",
+    "github": "^0.2.4",
+    "node-static": "^0.7.7"
   },
   "devDependencies": {
     "chai": "^3.2.0",
@@ -16,7 +21,7 @@
     "grunt-mocha-test": "^0.12.7",
     "method-override": "^2.3.5",
     "mocha": "^2.3.0",
-    "supertest": "^1.1.0"      
+    "supertest": "^1.1.0"
   },
   "scripts": {
     "test": "grunt mochaTest"
